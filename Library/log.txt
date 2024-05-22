@@ -1,0 +1,217 @@
+2024-05-22 18:21:58.133 +02:00 [INF] Now listening on: http://localhost:5054
+2024-05-22 18:21:58.153 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:21:58.156 +02:00 [INF] Hosting environment: Development
+2024-05-22 18:21:58.157 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 18:21:58.709 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5054/swagger/index.html - null null
+2024-05-22 18:21:58.895 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5054/swagger/index.html - 200 null text/html;charset=utf-8 186.2788ms
+2024-05-22 18:21:58.951 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5054/_vs/browserLink - null null
+2024-05-22 18:21:58.951 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5054/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:21:58.965 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5054/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 14.4402ms
+2024-05-22 18:21:59.001 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5054/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.0327ms
+2024-05-22 18:21:59.346 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5054/swagger/v1/swagger.json - null null
+2024-05-22 18:21:59.439 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE {id}" for actions - Library.Controllers.BorrowsController.Delete (Library),Library.Controllers.ReadersController.Delete (Library). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:21:59.452 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5054/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 106.0576ms
+2024-05-22 18:25:03.533 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 18:25:03.551 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:25:03.554 +02:00 [INF] Hosting environment: Development
+2024-05-22 18:25:03.555 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 18:25:03.994 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger - null null
+2024-05-22 18:25:04.141 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger - 301 0 null 150.9988ms
+2024-05-22 18:25:04.148 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 18:25:04.209 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 61.2206ms
+2024-05-22 18:25:04.219 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - null null
+2024-05-22 18:25:04.238 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-22 18:25:04.242 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - 200 152034 text/css 22.3903ms
+2024-05-22 18:25:04.273 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - null null
+2024-05-22 18:25:04.274 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-22 18:25:04.274 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:25:04.274 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 18:25:04.285 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-22 18:25:04.288 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-22 18:25:04.289 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 14.7433ms
+2024-05-22 18:25:04.301 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 27.5554ms
+2024-05-22 18:25:04.302 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 28.9599ms
+2024-05-22 18:25:04.336 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.7209ms
+2024-05-22 18:25:04.593 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/favicon-32x32.png - null null
+2024-05-22 18:25:04.597 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-22 18:25:04.600 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/favicon-32x32.png - 200 628 image/png 7.2814ms
+2024-05-22 18:25:04.600 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 18:25:04.696 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE {id}" for actions - Library.Controllers.BorrowsController.Delete (Library),Library.Controllers.ReadersController.Delete (Library). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:25:04.707 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 107.2802ms
+2024-05-22 18:26:05.545 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 18:26:05.571 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:26:05.573 +02:00 [INF] Hosting environment: Development
+2024-05-22 18:26:05.574 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 18:26:05.922 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 18:26:06.117 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 196.3044ms
+2024-05-22 18:26:06.125 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:26:06.133 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.2007ms
+2024-05-22 18:26:06.166 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 18:26:06.197 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.5298ms
+2024-05-22 18:26:06.497 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 18:26:06.592 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE {id}" for actions - Library.Controllers.BorrowsController.Delete (Library),Library.Controllers.ReadersController.Delete (Library). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:26:06.608 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 111.7914ms
+2024-05-22 18:29:42.074 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 18:29:42.091 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:29:42.092 +02:00 [INF] Hosting environment: Development
+2024-05-22 18:29:42.093 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 18:29:42.450 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 18:29:42.641 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 191.8269ms
+2024-05-22 18:29:42.653 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:29:42.657 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 4.1593ms
+2024-05-22 18:29:42.690 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 18:29:42.719 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.6678ms
+2024-05-22 18:29:42.832 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 18:29:42.920 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE {id}" for actions - Library.Controllers.BorrowsController.Delete (Library),Library.Controllers.ReadersController.Delete (Library). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:29:42.936 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 103.395ms
+2024-05-22 18:36:25.379 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 18:36:25.400 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:36:25.403 +02:00 [INF] Hosting environment: Development
+2024-05-22 18:36:25.403 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 18:36:38.458 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 18:36:38.477 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:36:38.481 +02:00 [INF] Hosting environment: Development
+2024-05-22 18:36:38.481 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 18:36:38.937 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 18:36:39.155 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 221.638ms
+2024-05-22 18:36:39.228 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:36:39.236 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 7.2279ms
+2024-05-22 18:36:39.290 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 18:36:39.332 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.9934ms
+2024-05-22 18:36:39.397 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 18:36:39.499 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE {id}" for actions - Library.Controllers.BorrowsController.Delete (Library),Library.Controllers.ReadersController.Delete (Library). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:36:39.510 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 113.1992ms
+2024-05-22 18:36:47.498 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 18:36:47.514 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:36:47.515 +02:00 [INF] Hosting environment: Development
+2024-05-22 18:36:47.518 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 18:36:47.960 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 18:36:48.178 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 219.305ms
+2024-05-22 18:36:48.191 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:36:48.199 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 6.7494ms
+2024-05-22 18:36:48.261 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 18:36:48.303 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.3437ms
+2024-05-22 18:36:48.391 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 18:36:48.489 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE {id}" for actions - Library.Controllers.BorrowsController.Delete (Library),Library.Controllers.ReadersController.Delete (Library). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:36:48.503 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 111.7234ms
+2024-05-22 18:42:49.117 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 18:42:49.146 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:42:49.148 +02:00 [INF] Hosting environment: Development
+2024-05-22 18:42:49.149 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 18:42:50.221 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 18:42:50.571 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 351.4898ms
+2024-05-22 18:42:50.673 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:42:50.674 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 18:42:50.690 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 16.7147ms
+2024-05-22 18:42:50.838 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 164.4603ms
+2024-05-22 18:42:50.990 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 18:42:51.191 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE {id}" for actions - Library.Controllers.BorrowsController.Delete (Library),Library.Controllers.ReadersController.Delete (Library). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:42:51.231 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 241.666ms
+2024-05-22 18:57:11.277 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 18:57:11.336 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:57:11.338 +02:00 [INF] Hosting environment: Development
+2024-05-22 18:57:11.339 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 18:57:13.211 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 18:57:13.670 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 470.3361ms
+2024-05-22 18:57:13.749 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:57:13.749 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 18:57:13.766 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 17.5239ms
+2024-05-22 18:57:13.938 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 188.5937ms
+2024-05-22 18:57:14.061 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 18:57:14.263 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE {id}" for actions - Library.Controllers.BorrowsController.Delete (Library),Library.Controllers.ReadersController.Delete (Library). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:57:14.330 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 268.8716ms
+2024-05-22 18:58:21.952 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 18:58:21.981 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE {id}" for actions - Library.Controllers.BorrowsController.Delete (Library),Library.Controllers.ReadersController.Delete (Library). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:58:22.009 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 500 null text/html; charset=utf-8 60.7401ms
+2024-05-22 18:58:22.022 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 18:58:22.022 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:58:22.028 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 5.9166ms
+2024-05-22 18:58:22.042 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.3572ms
+2024-05-22 18:58:22.148 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/favicon.ico - null null
+2024-05-22 18:58:22.153 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:58:22.154 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/favicon.ico - 404 0 null 5.7848ms
+2024-05-22 18:58:22.160 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:8080/favicon.ico, Response status code: 404
+2024-05-22 19:01:45.878 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 19:01:45.925 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 19:01:45.926 +02:00 [INF] Hosting environment: Development
+2024-05-22 19:01:45.928 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 19:01:46.245 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 19:01:46.783 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 548.5757ms
+2024-05-22 19:01:46.867 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 19:01:46.871 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 19:01:46.885 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 18.234ms
+2024-05-22 19:01:46.946 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.224ms
+2024-05-22 19:01:47.082 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 19:01:47.319 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 236.4294ms

@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library.shared\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|solutionrelative:library.shared\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\readerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\readerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library.shared\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|solutionrelative:library.shared\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library.shared\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|solutionrelative:library.shared\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library.shared\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|solutionrelative:library.shared\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library.shared\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|solutionrelative:library.shared\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\iborrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\iborrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library.shared\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2975D0-A084-4A85-94B0-90F3EDFB8A8F}|Library.Shared\\Library.Shared.csproj|solutionrelative:library.shared\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +58,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Book.cs",
+              "RelativeDocumentMoniker": "Library.Shared\\Book.cs",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Book.cs",
+              "RelativeToolTip": "Library.Shared\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T16:41:19.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReaderService.cs",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\ReaderService.cs",
+              "RelativeDocumentMoniker": "Library\\ReaderService.cs",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\ReaderService.cs",
+              "RelativeToolTip": "Library\\ReaderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T16:38:15.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Library.csproj",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Library.csproj",
+              "RelativeDocumentMoniker": "Library\\Library.csproj",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Library.csproj",
+              "RelativeToolTip": "Library\\Library.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-22T16:26:53.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Library\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Library\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T16:23:09.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Program.cs",
+              "RelativeDocumentMoniker": "Library\\Program.cs",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Program.cs",
+              "RelativeToolTip": "Library\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T16:18:02.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowService.cs",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\BorrowService.cs",
+              "RelativeDocumentMoniker": "Library\\BorrowService.cs",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\BorrowService.cs",
+              "RelativeToolTip": "Library\\BorrowService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:50:51.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBorrowService.cs",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\IBorrowService.cs",
+              "RelativeDocumentMoniker": "Library\\IBorrowService.cs",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\IBorrowService.cs",
+              "RelativeToolTip": "Library\\IBorrowService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:49:49.617Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -52,101 +153,57 @@
               "RelativeDocumentMoniker": "Library\\LibraryContext.cs",
               "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\LibraryContext.cs",
               "RelativeToolTip": "Library\\LibraryContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T15:30:00.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\BookService.cs",
-              "RelativeDocumentMoniker": "Library\\BookService.cs",
-              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\BookService.cs",
-              "RelativeToolTip": "Library\\BookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T15:27:05.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Program.cs",
-              "RelativeDocumentMoniker": "Library\\Program.cs",
-              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Program.cs",
-              "RelativeToolTip": "Library\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T14:51:58.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\appsettings.json",
-              "RelativeDocumentMoniker": "Library\\appsettings.json",
-              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\appsettings.json",
-              "RelativeToolTip": "Library\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-22T14:47:05.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T15:30:00.971Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Library",
-              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Library.csproj",
-              "RelativeDocumentMoniker": "Library\\Library.csproj",
-              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Library.csproj",
-              "RelativeToolTip": "Library\\Library.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-22T14:34:43.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Borrow.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Borrow.cs",
               "RelativeDocumentMoniker": "Library.Shared\\Borrow.cs",
               "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Borrow.cs",
               "RelativeToolTip": "Library.Shared\\Borrow.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:17:43.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T13:17:43.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\IBookService.cs",
+              "RelativeDocumentMoniker": "Library\\IBookService.cs",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\IBookService.cs",
+              "RelativeToolTip": "Library\\IBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:37:26.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\BookService.cs",
+              "RelativeDocumentMoniker": "Library\\BookService.cs",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\BookService.cs",
+              "RelativeToolTip": "Library\\BookService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:27:05.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Reader.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Reader.cs",
               "RelativeDocumentMoniker": "Library.Shared\\Reader.cs",
               "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Reader.cs",
               "RelativeToolTip": "Library.Shared\\Reader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:13:37.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Book.cs",
-              "RelativeDocumentMoniker": "Library.Shared\\Book.cs",
-              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Book.cs",
-              "RelativeToolTip": "Library.Shared\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:03:36.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T13:13:37.114Z"
             }
           ]
         }

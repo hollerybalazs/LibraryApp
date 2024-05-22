@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Library
 {
-	public class BookService
+	public class BookService : IBookService
 	{
 		private readonly LibraryContext _context;
 		private readonly ILogger<BookService> _logger;
@@ -46,7 +46,6 @@ namespace Library
 		public async Task Update(Book newBook)
 		{
 			var book = await Get(newBook.InventoryNumber);
-			book.InventoryNumber = newBook.InventoryNumber;
 			book.Title = newBook.Title;
 			book.Author = newBook.Author;
 			book.Publisher = newBook.Publisher;
