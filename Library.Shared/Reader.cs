@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Library.Shared
 {
-	class Reader
+	public class Reader
 	{
 		[Key]
 		[DatabaseGenerated(DatabaseGeneratedOption.Identity)] 

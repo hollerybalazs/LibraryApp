@@ -1,0 +1,11 @@
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\bin\Debug\net8.0\Library.Shared.deps.json
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\bin\Debug\net8.0\Library.Shared.dll
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\bin\Debug\net8.0\Library.Shared.pdb
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\obj\Debug\net8.0\Library.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\obj\Debug\net8.0\Library.Shared.AssemblyInfoInputs.cache
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\obj\Debug\net8.0\Library.Shared.AssemblyInfo.cs
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\obj\Debug\net8.0\Library.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\obj\Debug\net8.0\Library.Shared.dll
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\obj\Debug\net8.0\refint\Library.Shared.dll
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\obj\Debug\net8.0\Library.Shared.pdb
+C:\Users\Balázs\Desktop\LibrarySolution\Library.Shared\obj\Debug\net8.0\ref\Library.Shared.dll
