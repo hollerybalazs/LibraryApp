@@ -215,3 +215,27 @@ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/
 2024-05-22 19:01:46.946 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.224ms
 2024-05-22 19:01:47.082 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
 2024-05-22 19:01:47.319 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 236.4294ms
+2024-05-22 19:07:20.521 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 19:07:20.554 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 19:07:20.556 +02:00 [INF] Hosting environment: Development
+2024-05-22 19:07:20.558 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 19:07:21.994 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 19:07:22.699 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 721.8575ms
+2024-05-22 19:07:22.781 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 19:07:22.781 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 19:07:22.791 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 10.3763ms
+2024-05-22 19:07:22.966 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 185.6853ms
+2024-05-22 19:07:23.073 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 19:07:23.276 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 203.0929ms
+2024-05-22 19:08:38.066 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-22 19:08:38.124 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 19:08:38.126 +02:00 [INF] Hosting environment: Development
+2024-05-22 19:08:38.127 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-22 19:08:39.003 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-22 19:08:39.707 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 714.5054ms
+2024-05-22 19:08:39.926 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-22 19:08:39.926 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 19:08:39.948 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 22.9562ms
+2024-05-22 19:08:40.075 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 149.131ms
+2024-05-22 19:08:40.533 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-22 19:08:40.743 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.1926ms

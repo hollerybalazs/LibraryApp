@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|c:\\users\\bal\u00E1zs\\desktop\\librarysolution\\library\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4398F470-A4B1-4792-A10D-86AD93E99A3C}|Library\\Library.csproj|solutionrelative:library\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,36 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Book.cs",
-              "RelativeDocumentMoniker": "Library.Shared\\Book.cs",
-              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Book.cs",
-              "RelativeToolTip": "Library.Shared\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T16:41:19.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReaderService.cs",
-              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\ReaderService.cs",
-              "RelativeDocumentMoniker": "Library\\ReaderService.cs",
-              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\ReaderService.cs",
-              "RelativeToolTip": "Library\\ReaderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T16:38:15.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Library.csproj",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Library.csproj",
               "RelativeDocumentMoniker": "Library\\Library.csproj",
@@ -99,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Library\\Properties\\launchSettings.json",
@@ -111,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\Program.cs",
               "RelativeDocumentMoniker": "Library\\Program.cs",
@@ -123,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BorrowService.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\BorrowService.cs",
               "RelativeDocumentMoniker": "Library\\BorrowService.cs",
@@ -135,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IBorrowService.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\IBorrowService.cs",
               "RelativeDocumentMoniker": "Library\\IBorrowService.cs",
@@ -147,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LibraryContext.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\LibraryContext.cs",
               "RelativeDocumentMoniker": "Library\\LibraryContext.cs",
@@ -159,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Borrow.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Borrow.cs",
               "RelativeDocumentMoniker": "Library.Shared\\Borrow.cs",
@@ -171,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "IBookService.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\IBookService.cs",
               "RelativeDocumentMoniker": "Library\\IBookService.cs",
@@ -179,11 +154,36 @@
               "RelativeToolTip": "Library\\IBookService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T15:37:26.843Z"
+              "WhenOpened": "2024-05-22T15:37:26.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
+              "Title": "ReaderService.cs",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\ReaderService.cs",
+              "RelativeDocumentMoniker": "Library\\ReaderService.cs",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\ReaderService.cs",
+              "RelativeToolTip": "Library\\ReaderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T16:38:15.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Book.cs",
+              "RelativeDocumentMoniker": "Library.Shared\\Book.cs",
+              "ToolTip": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Book.cs",
+              "RelativeToolTip": "Library.Shared\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T16:41:19.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library\\BookService.cs",
               "RelativeDocumentMoniker": "Library\\BookService.cs",
@@ -195,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Reader.cs",
               "DocumentMoniker": "C:\\Users\\Bal\u00E1zs\\Desktop\\LibrarySolution\\Library.Shared\\Reader.cs",
               "RelativeDocumentMoniker": "Library.Shared\\Reader.cs",
