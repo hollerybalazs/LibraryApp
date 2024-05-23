@@ -239,3 +239,24 @@ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/
 2024-05-22 19:08:40.075 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 149.131ms
 2024-05-22 19:08:40.533 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
 2024-05-22 19:08:40.743 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.1926ms
+2024-05-23 14:19:12.382 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-23 14:19:12.396 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-23 14:19:12.397 +02:00 [INF] Hosting environment: Development
+2024-05-23 14:19:12.398 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-23 14:19:13.000 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-05-23 14:19:13.259 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 259.3042ms
+2024-05-23 14:19:13.282 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - null null
+2024-05-23 14:19:13.283 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-23 14:19:13.286 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-23 14:19:13.286 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - null null
+2024-05-23 14:19:13.292 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.82ms
+2024-05-23 14:19:13.294 +02:00 [INF] The file /swagger-ui.css was not modified
+2024-05-23 14:19:13.295 +02:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-05-23 14:19:13.297 +02:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-05-23 14:19:13.299 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - 304 null text/css 17.0231ms
+2024-05-23 14:19:13.300 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 14.1487ms
+2024-05-23 14:19:13.302 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - 304 null text/javascript 15.8071ms
+2024-05-23 14:19:13.334 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2024-05-23 14:19:13.384 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.5519ms
+2024-05-23 14:19:13.606 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-05-23 14:19:13.690 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.7154ms
