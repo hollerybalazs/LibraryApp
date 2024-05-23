@@ -19,7 +19,7 @@ namespace Library.Shared
 		public string Publisher { get; set; }
 
 		[Required]
-		[Range(typeof(DateTime), "0000-01-01", "2024-05-22")]
+		[Range(typeof(DateTime), "1900-01-01", "2024-05-22")]
 		public DateTime Date { get; set; }
 	}
 }

@@ -1029,3 +1029,12 @@ C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\obj\Debug\net8.0\Library.UI.
 C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\obj\Debug\net8.0\refint\Library.UI.dll
 C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\obj\Debug\net8.0\Library.UI.pdb
 C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\obj\Debug\net8.0\ref\Library.UI.dll
+C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\bin\Debug\net8.0\wwwroot\_framework\Library.Shared.pdb
+C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\bin\Debug\net8.0\wwwroot\_framework\Library.Shared.wasm
+C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\bin\Debug\net8.0\wwwroot\_framework\Library.Shared.wasm.gz
+C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\bin\Debug\net8.0\wwwroot\_framework\Library.Shared.pdb.gz
+C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\bin\Debug\net8.0\Library.Shared.dll
+C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\bin\Debug\net8.0\Library.Shared.pdb
+C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\obj\Debug\net8.0\webcil\Library.Shared.wasm
+C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\obj\Debug\net8.0\compressed\9ays3tz6lx.gz
+C:\Users\Balázs\Desktop\LibrarySolution\Library.UI\obj\Debug\net8.0\compressed\vhl6wb9c7x.gz

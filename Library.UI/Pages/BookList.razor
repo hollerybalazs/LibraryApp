@@ -1,0 +1,49 @@
+﻿@page "/book/list"
+@using Library.Shared
+@using Library.UI.Services
+@inject IBookService BookService
+
+<h3>BookList</h3>
+
+@if (Books is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <a href="/book/add" class="btn btn-primary">Add</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Inventory Number</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Year Of Publication</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Books)
+            {
+                <tr>
+                    <td>@book.InventoryNumber</td>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.Publisher</td>
+                    <td>@book.Date.ToShortDateString()</td>
+                    <td><a href="/book/@book.InventoryNumber" class="btn btn-primary">Details</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Book>? Books { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Books = await BookService.GetAllBookAsync();
+    }
+
+}

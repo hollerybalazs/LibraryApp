@@ -29,7 +29,7 @@ namespace Library.UI.Services
 
         public async Task AddReaderAsync(Reader reader)
         {
-            await _httpClient.PostAsJsonAsync("/Books", reader);
+            await _httpClient.PostAsJsonAsync("/Readers", reader);
         }
 
         public async Task UpdateReaderAsync(Guid id, Reader reader)

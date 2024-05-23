@@ -1,0 +1,44 @@
+﻿@page "/reader/{id:guid}"
+@using Library.Shared
+@using Library.UI.Services
+@using Library.UI.Components
+@inject IReaderService ReaderService
+@inject NavigationManager NavigationManager
+
+@if (Reader is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <ReaderForm Reader="Reader" OnValidSubmit="UpdateAsync" ButtonText="Update Reader" />
+    <button class="btn btn-warning" @onclick="DeleteAsync">Delete</button>
+}
+
+@code {
+
+    [Parameter]
+    public Guid Id { get; set; }
+
+    private Reader? Reader { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Reader = await ReaderService.GetReaderAsync(Id);
+    }
+
+    private async Task DeleteAsync()
+    {
+        await ReaderService.DeleteReaderAsync(Id);
+        NavigationManager.NavigateTo("/reader/list");
+    }
+
+    private async Task UpdateAsync()
+    {
+        await ReaderService.UpdateReaderAsync(Id, Reader);
+        NavigationManager.NavigateTo("/reader/list");
+    }
+}
+
+
+
