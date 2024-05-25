@@ -1,0 +1,44 @@
+﻿@page "/borrow/{id:guid}"
+@using Library.Shared
+@using Library.UI.Services
+@using Library.UI.Components
+@inject IBorrowService BorrowService
+@inject NavigationManager NavigationManager
+
+@if (Borrow is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <BorrowForm Borrow="Borrow" OnValidSubmit="UpdateAsync" ButtonText="Update Borrow" />
+    <button class="btn btn-warning" @onclick="DeleteAsync">Delete</button>
+}
+
+@code {
+
+    [Parameter]
+    public Guid Id { get; set; }
+
+    private Borrow? Borrow { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Borrow = await BorrowService.GetBorrowAsync(Id);
+    }
+
+    private async Task DeleteAsync()
+    {
+        await BorrowService.DeleteBorrowAsync(Id);
+        NavigationManager.NavigateTo("/borrow/list");
+    }
+
+    private async Task UpdateAsync()
+    {
+        await BorrowService.UpdateBorrowAsync(Id, Borrow);
+        NavigationManager.NavigateTo("/borrow/list");
+    }
+}
+
+
+

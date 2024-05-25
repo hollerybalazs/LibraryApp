@@ -13,5 +13,7 @@ namespace Library.UI.Services
         Task AddBorrowAsync(Borrow borrow);
 
         Task UpdateBorrowAsync(Guid id, Borrow borrow);
+
+        Task<IEnumerable<Borrow>> GetBorrowReaderAsync(Guid readerNumber);
     }
 }

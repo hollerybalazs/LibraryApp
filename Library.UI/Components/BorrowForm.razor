@@ -1,0 +1,63 @@
+﻿@using Library.Shared
+@using Library.UI.Services
+@inject IReaderService ReaderService
+@inject IBookService BookService
+
+<EditForm Model="Borrow" OnValidSubmit="() => OnValidSubmit()">
+    <DataAnnotationsValidator />
+     <div class="mb3">
+        <label class="form-label">Reader</label>
+        <InputSelect @bind-Value="@Borrow.ReaderNumber" class="form-input">
+            @foreach (var reader in Readers)
+            {
+                <option value="@reader.ReaderNumber">@reader.Name</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="() => Borrow.ReaderNumber"/>
+     </div>
+    <div class="mb3">
+        <label class="form-label">Book</label>
+        <InputSelect @bind-Value="@Borrow.InventoryNumber" class="form-input">
+            @foreach (var book in Books)
+            {
+                <option value="@book.InventoryNumber">@book.Title</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="() => Borrow.InventoryNumber" />
+    </div>
+    <div>
+        <label class="form-label">BorrowDate</label>
+        <InputDate @bind-Value="@Borrow.BorrowDate" class="form-input" />
+        <ValidationMessage For="() => Borrow.BorrowDate" />
+    </div>
+    <div>
+        <label class="form-label">OverDueDate</label>
+        <InputDate @bind-Value="@Borrow.OverDueDate" class="form-input" />
+        <ValidationMessage For="() => Borrow.OverDueDate" />
+    </div>
+    <button class="btn btn-primary" type="submit">@ButtonText</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public Borrow Borrow { get; set; }
+
+    [Parameter]
+    public Func<Task> OnValidSubmit { get; set; }
+
+    [Parameter]
+    public string ButtonText { get; set; }
+
+    private IEnumerable<Reader> Readers { get; set; } = new List<Reader>();
+    private IEnumerable<Book> Books { get; set; } = new List<Book>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Readers = (await ReaderService.GetAllReaderAsync()).ToList();
+        Books = (await BookService.GetAllBookAsync()).ToList();
+    }
+
+    
+
+}
+

@@ -52,5 +52,10 @@ namespace Library
 			borrow.OverDueDate = newBorrow.OverDueDate;
 			await _context.SaveChangesAsync();
 		}
+
+		public async Task<List<Borrow>> GetBorrowReader(Guid readerNumber)
+		{
+			return await _context.Borrows.Where(x => x.ReaderNumber == readerNumber).ToListAsync();
+		}
 	}
 }

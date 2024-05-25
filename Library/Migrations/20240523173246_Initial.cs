@@ -39,19 +39,19 @@ namespace Library.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Borrows", x => x.Id);
-					table.ForeignKey(
-						name: "FK_Borrows_Books_InventoryNumber",
-						column: x => x.InventoryNumber,
-						principalTable: "Book",
-						principalColumn: "InventoryNumber",
-						onDelete: ReferentialAction.Cascade);
-					table.ForeignKey(
-						name: "FK_Borrows_Readers_ReaderNumber",
-						column: x => x.ReaderNumber,
-						principalTable: "Reader",
-						principalColumn: "ReaderNumber",
-						onDelete: ReferentialAction.Cascade);
-				});
+                    table.ForeignKey(
+                        name: "FK_Borrows_Books_InventoryNumber",
+                        column: x => x.InventoryNumber,
+                        principalTable: "Books",
+                        principalColumn: "InventoryNumber",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Borrows_Readers_ReaderNumber",
+                        column: x => x.ReaderNumber,
+                        principalTable: "Readers",
+                        principalColumn: "ReaderNumber",
+                        onDelete: ReferentialAction.Cascade);
+                });
 
             migrationBuilder.CreateTable(
                 name: "Readers",

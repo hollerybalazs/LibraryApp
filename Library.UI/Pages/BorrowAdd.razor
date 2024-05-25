@@ -1,0 +1,21 @@
+﻿@page "/borrow/add"
+@using Library.Shared
+@using Library.UI.Services
+@using Library.UI.Components
+@inject IBorrowService BorrowService
+@inject NavigationManager NavigationManager
+
+
+<h3>BorrowAdd</h3>
+
+<BorrowForm Borrow="Borrow" OnValidSubmit="AddBorrowAsync" ButtonText="Add Borrow" />
+
+@code {
+    private Borrow Borrow { get; set; } = new();
+
+    private async Task AddBorrowAsync()
+    {
+        await BorrowService.AddBorrowAsync(Borrow);
+        NavigationManager.NavigateTo("/borrow/list");
+    }
+}

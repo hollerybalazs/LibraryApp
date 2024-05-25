@@ -56,14 +56,14 @@ namespace Library.Migrations
                     b.Property<DateTime>("BorrowDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("InventoryNumber")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("InventoryNumber")
+                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("OverDueDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("ReaderNumber")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("ReaderNumber")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

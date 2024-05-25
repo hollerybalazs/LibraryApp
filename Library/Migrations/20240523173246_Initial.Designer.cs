@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Library.Migrations
 {
     [DbContext(typeof(LibraryContext))]
-    [Migration("20240522151434_Initial")]
+    [Migration("20240523173246_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -59,14 +59,14 @@ namespace Library.Migrations
                     b.Property<DateTime>("BorrowDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("InventoryNumber")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("InventoryNumber")
+                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("OverDueDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("ReaderNumber")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("ReaderNumber")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

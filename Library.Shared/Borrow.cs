@@ -11,11 +11,11 @@ namespace Library.Shared
 
 		[Required]
 		[ForeignKey("Reader")]
-		public int ReaderNumber { get; set; }
+		public Guid ReaderNumber { get; set; }
 
 		[Required]
 		[ForeignKey("Book")]
-		public int InventoryNumber { get; set; }
+		public Guid InventoryNumber { get; set; }
 
 		[Required]
 		//[CustomValidation(typeof(Borrow), nameof(BorrowDateValidation))]

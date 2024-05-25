@@ -81,5 +81,11 @@ namespace Library.Controllers
 
 			return Ok();
 		}
+
+        [HttpGet("{readerNumber:guid}/borrows")]
+        public async Task<ActionResult<List<Borrow>>> GetBorrowReader(Guid readerNumber)
+		{
+			return Ok(await _borrowService.GetBorrowReader(readerNumber));
+		}
 	}
 }

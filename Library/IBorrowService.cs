@@ -13,5 +13,7 @@ namespace Library
 		Task<List<Borrow>> GetAll();
 
 		Task Update(Borrow borrow);
-	}
+
+        Task<List<Borrow>> GetBorrowReader(Guid readerNumber);
+    }
 }

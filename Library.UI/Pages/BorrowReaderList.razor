@@ -1,0 +1,49 @@
+﻿@page "/reader/{readerNumber:guid}/borrows"
+@using Library.Shared
+@using Library.UI.Services
+@inject IReaderService ReaderService
+@inject IBorrowService BorrowService
+
+<h3>BorrowReaderList</h3>
+
+@if (Borrows is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Reader Number</th>
+                <th>Inventory Number</th>
+                <th>Borrow Date</th>
+                <th>Overdue Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var borrow in Borrows)
+            {
+                <tr>
+                    <td>@borrow.ReaderNumber</td>
+                    <td>@borrow.InventoryNumber</td>
+                    <td>@borrow.BorrowDate.ToShortDateString()</td>
+                    <td>@borrow.OverDueDate.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    [Parameter]
+    public Guid ReaderNumber { get; set; }
+
+    private IEnumerable<Borrow>? Borrows { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Borrows = await BorrowService.GetBorrowReaderAsync(ReaderNumber);
+    }
+}

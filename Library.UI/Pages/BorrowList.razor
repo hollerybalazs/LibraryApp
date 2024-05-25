@@ -1,0 +1,49 @@
+﻿@page "/borrow/list"
+@using Library.Shared
+@using Library.UI.Services
+@inject IBorrowService BorrowService
+
+<h3>BorrowList</h3>
+
+@if (Borrows is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <a href="/borrow/add" class="btn btn-primary">Add</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Reader Number</th>
+                <th>Inventory Number</th>
+                <th>Borrow Date</th>
+                <th>Overdue Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var borrow in Borrows)
+            {
+                <tr>
+                    <td>@borrow.ReaderNumber</td>
+                    <td>@borrow.InventoryNumber</td>
+                    <td>@borrow.BorrowDate.ToShortDateString()</td>
+                    <td>@borrow.OverDueDate.ToShortDateString()</td>
+                    <td><a href="/borrow/@borrow.Id" class="btn btn-primary">Details</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Borrow>? Borrows { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Borrows = await BorrowService.GetAllBorrowAsync();
+    }
+
+}
+
+

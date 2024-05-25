@@ -36,5 +36,9 @@ namespace Library.UI.Services
         {
             await _httpClient.PutAsJsonAsync($"/Borrows/{id}", borrow);
         }
+        public async Task<IEnumerable<Borrow>> GetBorrowReaderAsync(Guid readerNumber)
+        {
+            return await _httpClient.GetFromJsonAsync<IEnumerable<Borrow>>($"/Borrows/{readerNumber}/borrows");
+        }
     }
 }
