@@ -3,7 +3,7 @@
 @using Library.UI.Services
 @inject IBookService BookService
 
-<h3>BookList</h3>
+<h3>Books In The Library</h3>
 
 @if (Books is null)
 {
@@ -11,7 +11,7 @@
 }
 else
 {
-    <a href="/book/add" class="btn btn-primary">Add</a>
+    <a href="/book/add" class="btn btn-primary">Add a new book</a>
     <table class="table">
         <thead>
             <tr>

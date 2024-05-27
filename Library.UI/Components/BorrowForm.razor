@@ -26,12 +26,12 @@
         <ValidationMessage For="() => Borrow.InventoryNumber" />
     </div>
     <div>
-        <label class="form-label">BorrowDate</label>
+        <label class="form-label">Borrow Date</label>
         <InputDate @bind-Value="@Borrow.BorrowDate" class="form-input" />
         <ValidationMessage For="() => Borrow.BorrowDate" />
     </div>
     <div>
-        <label class="form-label">OverDueDate</label>
+        <label class="form-label">Overdue Date</label>
         <InputDate @bind-Value="@Borrow.OverDueDate" class="form-input" />
         <ValidationMessage For="() => Borrow.OverDueDate" />
     </div>
@@ -56,8 +56,5 @@
         Readers = (await ReaderService.GetAllReaderAsync()).ToList();
         Books = (await BookService.GetAllBookAsync()).ToList();
     }
-
-    
-
 }
 

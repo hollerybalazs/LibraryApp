@@ -5,14 +5,16 @@
 @inject IBookService BookService
 @inject NavigationManager NavigationManager
 
+<h3>Details Of The Book</h3>
+
 @if (Book is null)
 {
     <p>Loading..</p>
 }
 else
 {
-    <BookForm Book="Book" OnValidSubmit="UpdateAsync" ButtonText="Update Book" />
-    <button class="btn btn-warning" @onclick="DeleteAsync">Delete</button>
+    <BookForm Book="Book" OnValidSubmit="UpdateAsync" ButtonText="Update"/>
+    <button class="btn btn-warning" @onclick="DeleteAsync" style="margin-top: 5px">Delete</button>
 }
 
 @code {

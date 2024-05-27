@@ -5,6 +5,8 @@
 @inject IBorrowService BorrowService
 @inject NavigationManager NavigationManager
 
+<h3>Borrows</h3>
+
 @if (Borrow is null)
 {
     <p>Loading..</p>
@@ -12,7 +14,7 @@
 else
 {
     <BorrowForm Borrow="Borrow" OnValidSubmit="UpdateAsync" ButtonText="Update Borrow" />
-    <button class="btn btn-warning" @onclick="DeleteAsync">Delete</button>
+    <button class="btn btn-warning" @onclick="DeleteAsync" style="margin-top: 5px">Delete</button>
 }
 
 @code {

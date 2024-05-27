@@ -5,6 +5,8 @@
 @inject IReaderService ReaderService
 @inject NavigationManager NavigationManager
 
+<h3>Details Of The Reader</h3>
+
 @if (Reader is null)
 {
     <p>Loading..</p>
@@ -12,7 +14,7 @@
 else
 {
     <ReaderForm Reader="Reader" OnValidSubmit="UpdateAsync" ButtonText="Update Reader" />
-    <button class="btn btn-warning" @onclick="DeleteAsync">Delete</button>
+    <button class="btn btn-warning" @onclick="DeleteAsync" style="margin-top: 5px">Delete</button>
 }
 
 @code {

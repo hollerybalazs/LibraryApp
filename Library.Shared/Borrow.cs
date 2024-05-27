@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Library.Shared
 {
-	public class Borrow //: ValidationAttribute
-	{
+	public class Borrow
+    {
 		[Key]
 		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 		public Guid Id { get; set; }
@@ -18,20 +18,10 @@ namespace Library.Shared
 		public Guid InventoryNumber { get; set; }
 
 		[Required]
-		[CustomValidation(typeof(Borrow), nameof(BorrowDateValidation))]
+		[BorrowDateValidation]
 		public DateTime BorrowDate { get; set; }
 
 		[Required]
-		public DateTime OverDueDate { get; set; }
-
-		
-		public virtual ValidationResult BorrowDateValidation(ValidationContext context)
-		{
-			if(BorrowDate >= DateTime.Today)
-			{
-				return ValidationResult.Success;
-			}
-			return new ValidationResult("The field must be a date today or in the future.");
-		}
-	}
+        public DateTime OverDueDate { get; set; }
+    }
 }
