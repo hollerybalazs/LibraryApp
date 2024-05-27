@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N0wQCdZ+nnNFTtHdVhhYdy4JwWwPOCD+umyDMcRjvKY=",
+  "Hash": "UmRD/0rzDG3njn3NdmOxzJEsOER2yQDiKKC7BWETms4=",
   "Source": "Library.UI",
   "BasePath": "/",
   "Mode": "Root",
@@ -7940,6 +7940,25 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\css\\library.css",
+      "SourceId": "Library.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/library.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\library.css"
+    },
+    {
       "Identity": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\favicon.png",
       "SourceId": "Library.UI",
       "SourceType": "Discovered",
@@ -7976,6 +7995,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\images\\library.jpg",
+      "SourceId": "Library.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/library.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\library.jpg"
     },
     {
       "Identity": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\index.html",

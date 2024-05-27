@@ -22,7 +22,6 @@ namespace Library.Shared
 		public DateTime BorrowDate { get; set; }
 
 		[Required]
-		//[CustomValidation(typeof(Borrow), nameof(OverDueDateValidation))]
 		public DateTime OverDueDate { get; set; }
 
 		
@@ -34,14 +33,5 @@ namespace Library.Shared
 			}
 			return new ValidationResult("The field must be a date today or in the future.");
 		}
-
-		/*public virtual ValidationResult OverDueDateValidation(ValidationContext context)
-		{
-			if (OverDueDate > BorrowDate)
-			{
-				return ValidationResult.Success;
-			}
-			return new ValidationResult("Overdue date must be after the borrow date.");
-		}*/
 	}
 }

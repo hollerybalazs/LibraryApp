@@ -25,12 +25,20 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\css\\library.css",
+      "PackagePath": "staticwebassets\\css\\library.css"
+    },
+    {
       "Id": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
       "Id": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\images\\library.jpg",
+      "PackagePath": "staticwebassets\\images\\library.jpg"
     },
     {
       "Id": "C:\\Users\\Balázs\\Desktop\\LibrarySolution\\Library.UI\\wwwroot\\index.html",
