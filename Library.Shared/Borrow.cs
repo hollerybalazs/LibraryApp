@@ -18,14 +18,14 @@ namespace Library.Shared
 		public Guid InventoryNumber { get; set; }
 
 		[Required]
-		//[CustomValidation(typeof(Borrow), nameof(BorrowDateValidation))]
+		[CustomValidation(typeof(Borrow), nameof(BorrowDateValidation))]
 		public DateTime BorrowDate { get; set; }
 
 		[Required]
 		//[CustomValidation(typeof(Borrow), nameof(OverDueDateValidation))]
 		public DateTime OverDueDate { get; set; }
 
-		/*
+		
 		public virtual ValidationResult BorrowDateValidation(ValidationContext context)
 		{
 			if(BorrowDate >= DateTime.Today)
@@ -35,7 +35,7 @@ namespace Library.Shared
 			return new ValidationResult("The field must be a date today or in the future.");
 		}
 
-		public virtual ValidationResult OverDueDateValidation(ValidationContext context)
+		/*public virtual ValidationResult OverDueDateValidation(ValidationContext context)
 		{
 			if (OverDueDate > BorrowDate)
 			{

@@ -10,6 +10,8 @@ namespace Library
 		{
 		}
 
+		public LibraryContext() { }
+
 		public virtual DbSet<Book> Books { get; set; }
 
 		public virtual DbSet<Reader> Readers { get; set; }

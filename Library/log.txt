@@ -3481,3 +3481,486 @@ FROM "Readers" AS "r"
 2024-05-25 15:26:01.414 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 4.4027ms
 2024-05-25 15:26:01.416 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
 2024-05-25 15:26:01.418 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 16.351ms
+2024-05-26 17:11:33.321 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-26 17:11:33.339 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 17:11:33.341 +02:00 [INF] Hosting environment: Development
+2024-05-26 17:11:33.342 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-26 17:11:36.602 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-26 17:11:36.640 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:36.642 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-26 17:11:36.644 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:11:36.660 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:11:37.490 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-26 17:11:37.531 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:37.577 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 912.3916ms
+2024-05-26 17:11:37.580 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:11:37.582 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 980.5158ms
+2024-05-26 17:11:38.735 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:11:38.739 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:38.740 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:11:38.743 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:11:38.754 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:11:38.765 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:38.770 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 26.2511ms
+2024-05-26 17:11:38.772 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:11:38.773 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 38.3418ms
+2024-05-26 17:11:40.238 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-26 17:11:40.242 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:40.242 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:11:40.249 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-26 17:11:40.256 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-26 17:11:40.265 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:40.268 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 17.2695ms
+2024-05-26 17:11:40.269 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:11:40.270 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 31.4536ms
+2024-05-26 17:11:41.089 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:11:41.092 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:41.093 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:11:41.094 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:11:41.098 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:11:41.100 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:41.101 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 4.9367ms
+2024-05-26 17:11:41.102 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:11:41.103 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 14.3671ms
+2024-05-26 17:11:41.625 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-26 17:11:41.628 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:41.629 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:11:41.631 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:11:41.633 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-26 17:11:41.635 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:41.636 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 3.6237ms
+2024-05-26 17:11:41.637 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:11:41.639 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 13.8195ms
+2024-05-26 17:11:43.379 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-26 17:11:43.382 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:43.382 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:11:43.383 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-26 17:11:43.385 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-26 17:11:43.386 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:43.387 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 2.8162ms
+2024-05-26 17:11:43.388 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:11:43.389 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 10.2365ms
+2024-05-26 17:11:44.179 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-26 17:11:44.182 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:44.183 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:11:44.183 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-26 17:11:44.185 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-26 17:11:44.186 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:44.187 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 2.7038ms
+2024-05-26 17:11:44.188 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:11:44.189 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 10.3186ms
+2024-05-26 17:11:45.900 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:11:45.902 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:45.903 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:11:45.904 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:11:45.905 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:11:45.907 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:45.908 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 2.8971ms
+2024-05-26 17:11:45.909 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:11:45.910 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 9.8915ms
+2024-05-26 17:11:47.487 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-26 17:11:47.490 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:47.490 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:11:47.491 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:11:47.493 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-26 17:11:47.495 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:47.496 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 3.1415ms
+2024-05-26 17:11:47.497 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:11:47.499 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 11.9739ms
+2024-05-26 17:11:53.923 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows/ed144fb1-73f0-4a11-a6de-9bed4e8723a6 - null null
+2024-05-26 17:11:53.926 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:53.927 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.Get (Library)'
+2024-05-26 17:11:53.934 +02:00 [INF] Route matched with {action = "Get", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Library.Shared.Borrow]] Get(System.Guid) on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:11:53.946 +02:00 [INF] Borrow retrieved: {"LazyLoader":{"$type":"LazyLoader"},"Id":"ed144fb1-73f0-4a11-a6de-9bed4e8723a6","ReaderNumber":"1e7a63f0-8861-4dac-b68e-33db0b187102","InventoryNumber":"b6868ad8-cba2-4abe-9bb1-cbdefe2b2164","BorrowDate":"2000-01-01T00:00:00.0000000","OverDueDate":"2001-01-01T00:00:00.0000000","$type":"BorrowProxy"}
+2024-05-26 17:11:53.952 +02:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.BorrowProxy'.
+2024-05-26 17:11:53.955 +02:00 [INF] Executed action Library.Controllers.BorrowsController.Get (Library) in 18.2204ms
+2024-05-26 17:11:53.957 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.Get (Library)'
+2024-05-26 17:11:53.958 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows/ed144fb1-73f0-4a11-a6de-9bed4e8723a6 - 200 null application/json; charset=utf-8 34.9608ms
+2024-05-26 17:11:53.966 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:11:53.968 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:53.968 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:11:53.969 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:11:53.970 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:11:53.973 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:53.973 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 3.5146ms
+2024-05-26 17:11:53.975 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:11:53.976 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 9.6882ms
+2024-05-26 17:11:54.023 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-26 17:11:54.025 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:54.026 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:11:54.027 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-26 17:11:54.028 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-26 17:11:54.031 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:54.033 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 4.6284ms
+2024-05-26 17:11:54.034 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:11:54.035 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 11.6451ms
+2024-05-26 17:11:58.995 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-26 17:11:58.999 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:11:59.000 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:11:59.000 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:11:59.002 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-26 17:11:59.004 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:11:59.005 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 3.6121ms
+2024-05-26 17:11:59.006 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:11:59.008 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 12.0428ms
+2024-05-26 17:12:01.034 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:12:01.037 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:01.037 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:01.038 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:12:01.039 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:12:01.040 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:01.041 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 2.4708ms
+2024-05-26 17:12:01.042 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:01.043 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 8.9332ms
+2024-05-26 17:12:01.046 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-26 17:12:01.048 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:01.049 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:12:01.050 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-26 17:12:01.051 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-26 17:12:01.052 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:01.053 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 2.4411ms
+2024-05-26 17:12:01.054 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:12:01.055 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 8.6215ms
+2024-05-26 17:12:05.987 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:12:05.988 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:05.989 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:05.990 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:12:05.991 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:12:05.992 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:05.993 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 2.3755ms
+2024-05-26 17:12:05.994 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:05.995 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 7.9138ms
+2024-05-26 17:12:07.496 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows/1e7a63f0-8861-4dac-b68e-33db0b187102/borrows - null null
+2024-05-26 17:12:07.499 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:07.500 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetBorrowReader (Library)'
+2024-05-26 17:12:07.503 +02:00 [INF] Route matched with {action = "GetBorrowReader", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetBorrowReader(System.Guid) on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:12:07.559 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__readerNumber_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+WHERE "b"."ReaderNumber" = @__readerNumber_0
+2024-05-26 17:12:07.562 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:07.564 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetBorrowReader (Library) in 60.4173ms
+2024-05-26 17:12:07.565 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetBorrowReader (Library)'
+2024-05-26 17:12:07.566 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows/1e7a63f0-8861-4dac-b68e-33db0b187102/borrows - 200 null application/json; charset=utf-8 70.0375ms
+2024-05-26 17:12:08.684 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:12:08.686 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:08.687 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:08.688 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:12:08.690 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:12:08.691 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:08.692 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 2.9744ms
+2024-05-26 17:12:08.693 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:08.694 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 9.5138ms
+2024-05-26 17:12:13.002 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows/a63527ff-39ca-474f-863e-e82a63c83949/borrows - null null
+2024-05-26 17:12:13.005 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:13.005 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetBorrowReader (Library)'
+2024-05-26 17:12:13.006 +02:00 [INF] Route matched with {action = "GetBorrowReader", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetBorrowReader(System.Guid) on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:12:13.010 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__readerNumber_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+WHERE "b"."ReaderNumber" = @__readerNumber_0
+2024-05-26 17:12:13.011 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:13.012 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetBorrowReader (Library) in 4.208ms
+2024-05-26 17:12:13.014 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetBorrowReader (Library)'
+2024-05-26 17:12:13.015 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows/a63527ff-39ca-474f-863e-e82a63c83949/borrows - 200 null application/json; charset=utf-8 12.9675ms
+2024-05-26 17:12:14.842 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:12:14.844 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:14.844 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:14.845 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:12:14.847 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:12:14.848 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:14.849 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 2.8475ms
+2024-05-26 17:12:14.850 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:14.850 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 8.279ms
+2024-05-26 17:12:16.600 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-26 17:12:16.602 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:16.602 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:12:16.603 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:12:16.604 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-26 17:12:16.606 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:16.606 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 2.3426ms
+2024-05-26 17:12:16.607 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:12:16.608 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 7.8926ms
+2024-05-26 17:12:18.235 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:12:18.238 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:18.238 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:18.239 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:12:18.240 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:12:18.242 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:18.243 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 2.9431ms
+2024-05-26 17:12:18.244 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:18.245 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 9.8536ms
+2024-05-26 17:12:18.249 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-26 17:12:18.251 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:18.252 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:12:18.253 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-26 17:12:18.254 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-26 17:12:18.256 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:18.257 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 2.5889ms
+2024-05-26 17:12:18.258 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-26 17:12:18.258 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 9.2436ms
+2024-05-26 17:12:31.034 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/Borrows - null null
+2024-05-26 17:12:31.038 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:31.039 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/Borrows - 204 null null 5.4589ms
+2024-05-26 17:12:31.042 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/Borrows - application/json; charset=utf-8 227
+2024-05-26 17:12:31.044 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:31.045 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.Add (Library)'
+2024-05-26 17:12:31.049 +02:00 [INF] Route matched with {action = "Add", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Library.Shared.Borrow) on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:12:31.079 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+WHERE "b"."Id" = @__get_Item_0
+LIMIT 1
+2024-05-26 17:12:31.083 +02:00 [INF] Borrow retrieved: null
+2024-05-26 17:12:31.154 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Guid), @p3='?' (DbType = DateTime), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Borrows" ("Id", "BorrowDate", "InventoryNumber", "OverDueDate", "ReaderNumber")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-26 17:12:31.162 +02:00 [INF] Borrow added
+2024-05-26 17:12:31.165 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-26 17:12:31.165 +02:00 [INF] Executed action Library.Controllers.BorrowsController.Add (Library) in 115.1186ms
+2024-05-26 17:12:31.166 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.Add (Library)'
+2024-05-26 17:12:31.167 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/Borrows - 200 0 null 124.6823ms
+2024-05-26 17:12:31.198 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-26 17:12:31.200 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:31.201 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:12:31.201 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:12:31.203 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-26 17:12:31.204 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:31.205 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 2.6371ms
+2024-05-26 17:12:31.206 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:12:31.207 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 8.6262ms
+2024-05-26 17:12:32.923 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:12:32.925 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:32.926 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:32.926 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:12:32.928 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:12:32.929 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:32.931 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 3.8162ms
+2024-05-26 17:12:32.932 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:32.933 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 10.0203ms
+2024-05-26 17:12:34.761 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows/a63527ff-39ca-474f-863e-e82a63c83949/borrows - null null
+2024-05-26 17:12:34.764 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:34.765 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetBorrowReader (Library)'
+2024-05-26 17:12:34.765 +02:00 [INF] Route matched with {action = "GetBorrowReader", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetBorrowReader(System.Guid) on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:12:34.767 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__readerNumber_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+WHERE "b"."ReaderNumber" = @__readerNumber_0
+2024-05-26 17:12:34.768 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:34.769 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetBorrowReader (Library) in 2.7086ms
+2024-05-26 17:12:34.770 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetBorrowReader (Library)'
+2024-05-26 17:12:34.771 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows/a63527ff-39ca-474f-863e-e82a63c83949/borrows - 200 null application/json; charset=utf-8 9.7656ms
+2024-05-26 17:12:40.446 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-26 17:12:40.449 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:40.449 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:40.450 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-26 17:12:40.451 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-26 17:12:40.453 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:40.454 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 3.1673ms
+2024-05-26 17:12:40.455 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-26 17:12:40.455 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 9.5888ms
+2024-05-26 17:12:41.043 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-26 17:12:41.046 +02:00 [INF] CORS policy execution successful.
+2024-05-26 17:12:41.047 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:12:41.049 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-26 17:12:41.051 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-26 17:12:41.053 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-26 17:12:41.054 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 3.5868ms
+2024-05-26 17:12:41.055 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-26 17:12:41.056 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 12.5807ms
+2024-05-27 12:54:02.856 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-27 12:54:02.882 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 12:54:02.885 +02:00 [INF] Hosting environment: Development
+2024-05-27 12:54:02.888 +02:00 [INF] Content root path: C:\Users\Balázs\Desktop\LibrarySolution\Library
+2024-05-27 12:54:11.319 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-27 12:54:11.354 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:11.359 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 12:54:11.363 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:11.381 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-27 12:54:12.349 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-27 12:54:12.400 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:12.458 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 1067.7534ms
+2024-05-27 12:54:12.463 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:12.465 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 1146.9287ms
+2024-05-27 12:54:14.987 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-27 12:54:14.997 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:14.998 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-27 12:54:15.006 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-27 12:54:15.020 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 12:54:15.035 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:15.043 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 33.9826ms
+2024-05-27 12:54:15.047 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-27 12:54:15.049 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 62.0494ms
+2024-05-27 12:54:16.119 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-27 12:54:16.124 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:16.126 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-27 12:54:16.131 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-27 12:54:16.141 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-27 12:54:16.151 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:16.155 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 22.6171ms
+2024-05-27 12:54:16.156 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-27 12:54:16.158 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 38.6585ms
+2024-05-27 12:54:16.670 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-27 12:54:16.672 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:16.673 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-27 12:54:16.674 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-27 12:54:16.679 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 12:54:16.683 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:16.684 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 7.2088ms
+2024-05-27 12:54:16.686 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-27 12:54:16.687 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 16.9148ms
+2024-05-27 12:54:17.092 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-27 12:54:17.098 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:17.099 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:17.100 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-27 12:54:17.101 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-27 12:54:17.103 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:17.104 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 2.978ms
+2024-05-27 12:54:17.105 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:17.106 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 14.4236ms
+2024-05-27 12:54:17.543 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-27 12:54:17.551 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:17.551 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-27 12:54:17.553 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-27 12:54:17.554 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 12:54:17.556 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:17.557 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 3.6599ms
+2024-05-27 12:54:17.559 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-27 12:54:17.560 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 16.9202ms
+2024-05-27 12:54:17.870 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-27 12:54:17.873 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:17.873 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-27 12:54:17.874 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-27 12:54:17.878 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-27 12:54:17.883 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:17.884 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 7.2836ms
+2024-05-27 12:54:17.885 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-27 12:54:17.886 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 16.2593ms
+2024-05-27 12:54:18.667 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-27 12:54:18.671 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:18.671 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:18.672 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-27 12:54:18.674 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-27 12:54:18.677 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:18.678 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 5.1787ms
+2024-05-27 12:54:18.681 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:18.683 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 16.1172ms
+2024-05-27 12:54:19.760 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Readers - null null
+2024-05-27 12:54:19.763 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:19.764 +02:00 [INF] Executing endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-27 12:54:19.765 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Reader]]] GetAll() on controller Library.Controllers.ReadersController (Library).
+2024-05-27 12:54:19.768 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderNumber", "r"."Address", "r"."Date", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 12:54:19.769 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Reader, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:19.770 +02:00 [INF] Executed action Library.Controllers.ReadersController.GetAll (Library) in 2.8479ms
+2024-05-27 12:54:19.771 +02:00 [INF] Executed endpoint 'Library.Controllers.ReadersController.GetAll (Library)'
+2024-05-27 12:54:19.772 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Readers - 200 null application/json; charset=utf-8 12.3153ms
+2024-05-27 12:54:33.600 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Borrows - null null
+2024-05-27 12:54:33.602 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:33.603 +02:00 [INF] Executing endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-27 12:54:33.603 +02:00 [INF] Route matched with {action = "GetAll", controller = "Borrows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Borrow]]] GetAll() on controller Library.Controllers.BorrowsController (Library).
+2024-05-27 12:54:33.605 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."BorrowDate", "b"."InventoryNumber", "b"."OverDueDate", "b"."ReaderNumber"
+FROM "Borrows" AS "b"
+2024-05-27 12:54:33.607 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Borrow, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:33.609 +02:00 [INF] Executed action Library.Controllers.BorrowsController.GetAll (Library) in 4.9853ms
+2024-05-27 12:54:33.611 +02:00 [INF] Executed endpoint 'Library.Controllers.BorrowsController.GetAll (Library)'
+2024-05-27 12:54:33.612 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Borrows - 200 null application/json; charset=utf-8 12.1158ms
+2024-05-27 12:54:37.910 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-27 12:54:37.916 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:37.918 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:37.919 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-27 12:54:37.921 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-27 12:54:37.923 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:37.924 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 2.5728ms
+2024-05-27 12:54:37.925 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:37.926 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 15.8268ms
+2024-05-27 12:54:38.965 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-27 12:54:38.967 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:38.968 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:38.969 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-27 12:54:38.970 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-27 12:54:38.971 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:38.972 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 2.6043ms
+2024-05-27 12:54:38.973 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:38.974 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 9.3669ms
+2024-05-27 12:54:48.703 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/Books - null null
+2024-05-27 12:54:48.705 +02:00 [INF] CORS policy execution successful.
+2024-05-27 12:54:48.706 +02:00 [INF] Executing endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:48.707 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Library.Shared.Book]]] GetAll() on controller Library.Controllers.BooksController (Library).
+2024-05-27 12:54:48.710 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."Date", "b"."Publisher", "b"."Title"
+FROM "Books" AS "b"
+2024-05-27 12:54:48.712 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Library.Shared.Book, Library.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 12:54:48.715 +02:00 [INF] Executed action Library.Controllers.BooksController.GetAll (Library) in 6.6585ms
+2024-05-27 12:54:48.717 +02:00 [INF] Executed endpoint 'Library.Controllers.BooksController.GetAll (Library)'
+2024-05-27 12:54:48.717 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/Books - 200 null application/json; charset=utf-8 14.7393ms
